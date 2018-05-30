@@ -1,10 +1,30 @@
-portfolio
+Exercice Portfolio :
 
-mobile first
+But: 
+Crée un portfolio qui ira chercher les infos des différents projet dans une BDD.
+Pouvoir ajouter/supprimer des projets par un système d'administration (formulaire).
 
-framework libre
 
-infos projets en BDD
+Etape:
 
-back symfony
-possibilité suppression ou ajout projets en back
+- Crée un répertoire GIT.
+- Crée une maquette du projet.
+- Crée un MCD => Work bench.
+- Crée une base de donnée avec les info des différentes projets => Une image, un lien vers le projet.
+- Préparer la structure des dossiers et fichiers.
+- Installer Symfony
+- Intégrer les vues.
+- Crée un formulaire pour ajouter des projets + en supprimer => 
+    Soit : * crée un système d'administration.
+           * un système de login pour y accéder.
+Choix des technologies :
+
+** FRONT **
+
+- Materialize
+- Jquery
+
+** BACK **
+
+- BDD : MySQL
+- Symfony
