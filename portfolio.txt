@@ -1,0 +1,10 @@
+portfolio
+
+mobile first
+
+framework libre
+
+infos projets en BDD
+
+back symfony
+possibilité suppression ou ajout projets en back
