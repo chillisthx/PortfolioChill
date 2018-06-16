@@ -1,0 +1,83 @@
+html{font-size:62.5%;}
+html{overflow-x:hidden;}
+
+
+
+/* ----------------------- Polices ----------------------- */
+
+            /* Familles */
+            .sunflower{font-family: 'Sunflower', sans-serif;}
+            .karma{font-family: 'Karma', serif;}
+            .exo2{font-family:'Exo 2', sans-serif;}
+
+
+            /* Tailles */
+
+            .bold{font-weight:700;}
+            .fs60{font-size:6rem;}
+            .fs40{font-size:4rem;}
+            .fs36{font-size:3.6rem;}
+            .fs32{font-size:3.2rem;}
+            .fs24{font-size:2.4rem;}
+            .fs20{font-size:2rem;}
+            .fs18{font-size:1.8rem;}
+            .fs15{font-size:1.5rem;}
+
+
+
+/* ----------------------- Couleurs ----------------------- */
+
+
+            .color1{color: #E64A19;} /* orange */
+            .color2{color:#757575;}
+            .color3{color:#FFFFFF;} /* blanc */
+            .color4{color:#212121;} /* noir */
+
+            .bgcolor1{background-color: #FF5722; }
+            .light-primary-color   { background-color: #FFCCBC; }
+            .bgcolor2{background-color: #FFFFFF;}
+            .bgcolor3{background-color:#3F51B5;}
+
+
+            
+            .accent-color{ background: #03A9F4; }
+            .divider-color{ border-color: #BDBDBD; }
+            .nocolor{background: none;}
+
+/* ----------------------- Heights ----------------------- */
+
+            .h660p{height:660px;}
+            .h500p{height:500px;}
+            .h360p{height:360px;}
+            .h350p{height:350px;}
+            .h300p{height:300px;}
+            .h275p{height: 275px;}
+
+/* ----------------------- Margins ----------------------- */
+
+
+
+
+
+
+/* ----------------------- Spécifiques ----------------------- */
+
+a>img{width:85px;
+height:auto;}
+
+nav{
+    box-shadow: none;    
+  }
+
+
+
+.slide1 {
+    background: url('../img/bg_forest_cut.jpg') center 0 no-repeat fixed;
+ }
+ .slide2 {
+    background: url('../img/bg_pluie.jpg') center 0 no-repeat fixed;
+ }
+
+.navChange{background-color:#573F12;
+opacity:0.85;
+transition: 0.5s linear;}
