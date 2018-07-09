@@ -1,14 +1,14 @@
-html{font-size:62.5%;
-    overflow-x:hidden;}
-
+html{font-size:62.5%;}
+body{overflow-x:hidden;}
+a{color: #E64A19;}
 
 
 /* ----------------------- Polices ----------------------- */
 
             /* Familles */
-            .sunflower{font-family: 'Sunflower', sans-serif;}
             .karma{font-family: 'Karma', serif;}
             .exo2{font-family:'Exo 2', sans-serif;}
+            .ubuntu{font-family: 'Ubuntu', sans-serif;}
 
 
             /* Tailles */
@@ -43,7 +43,9 @@ html{font-size:62.5%;
             .nocolor{background: none;}
 
 /* ----------------------- Heights ----------------------- */
-
+            .vh100{height:100vh;}
+            .h1080p{height:1080px;}
+            .h900p{height:900px;}
             .h660p{height:660px;}
             .h500p{height:500px;}
             .h360p{height:360px;}
@@ -51,7 +53,6 @@ html{font-size:62.5%;
             .h300p{height:300px;}
             .h275p{height:275px;}
             .h230p{height:230px;}
-            .h100{height:100%;}
 
 
 /* ----------------------- Widths ----------------------- */
@@ -59,28 +60,50 @@ html{font-size:62.5%;
             .w300p{width:300px;}
             .w165p{width:165px;}
 
-/* ----------------------- Margins ----------------------- */
+/* ----------------------- Margins & Paddings ----------------------- */
             .mtop25{margin-top:20px;}
-            .nomargin{margin: 0;}
+            .pad15p{padding: 15px;}
 
 
 /* ----------------------- Génériques ----------------------- */
+
             .text-justify{text-align: justify;}
+            .flex{display:flex;}
+            .jcaround{justify-content: space-around;}
 
 
 /* ----------------------- Spécifiques ----------------------- */
 
-a>img{width:85px;
+.w250auto{width:250px;
 height:auto;}
 
 nav{
     box-shadow: none;    
   }
 
+.lh15{line-height:15px;}
 
 
+
+
+/* -----------------------  ----------------------- */
+
+.navChange{background-color:#573F12;
+opacity:0.85;
+transition: 0.5s linear;}
+.navChange2{background-color:#FFFFFF;
+    color:red;
+opacity:0.85;
+transition: 0.5s linear;}
+
+
+#blabla{background-color:#fff;
+     opacity:0.95;}
+
+
+/* ----------------------- Sliders ----------------------- */
 .slide1 {
-    background: url('../img/bg_forest_cut2.jpg') center 0 no-repeat fixed;
+    background: url('../img/bg_forest_cut3.jpg') center 0 no-repeat fixed;
  }
 .slide2 {
 background: url('../img/bg_city.jpg') center 0 no-repeat fixed;
@@ -91,13 +114,29 @@ background: url('../img/bg_pluie_cut.jpg') center 0 no-repeat fixed;
 
 
 
-.navChange{background-color:#573F12;
-opacity:0.85;
-transition: 0.5s linear;}
-.navChange2{background-color:#FFFFFF;
-opacity:0.85;
-transition: 0.5s linear;}
+/* ----------------------- Media Queries ----------------------- */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+    .fs32{font-size:2rem;}
+    .fs24{font-size:2rem;}
+    
+}
 
 
-#blabla{background-color:#fff;
-     opacity:0.95;}
